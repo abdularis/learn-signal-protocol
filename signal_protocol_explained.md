@@ -64,3 +64,15 @@ Explained in [x3dh.pdf](docs/x3dh.pdf)
 ![](images/Diffie-Hellman_Key_Exchange.svg)
 
 - Double Ratchet Algorithm (Key Management Algorithm)
+
+## Flow
+
+Supose there are two parties Alice & Bob, each has logged in to app and generate each own key bundle and uploaded it to the server.
+
+![](images/exchange.png)
+
+Now server has Alice's and Bob's key bundle to manage.
+
+The scenario is: Alice wants to communicate with bob, in this case alice is the initiator.
+
+![](images/act_diag.png)
