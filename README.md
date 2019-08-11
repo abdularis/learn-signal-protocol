@@ -1,5 +1,7 @@
 # signal protocol encryption
 
+Brief introduction on how to use signal protocol encryption library
+
 You have to generate three different keys:
 - Identity key (long term, generated at install time)
 - Signed prekey (medium term, update it once a week or month)
